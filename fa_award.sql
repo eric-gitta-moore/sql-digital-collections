@@ -11,6 +11,7 @@ create table fa_award
 )
     collate = utf8mb4_unicode_ci;
 
-INSERT INTO bowen.fa_award (id, name, status, is_repeat, total_number, goods_id, type) VALUES (1, '注册奖励', 1, 1, 3, 95, 0);
-INSERT INTO bowen.fa_award (id, name, status, is_repeat, total_number, goods_id, type) VALUES (31, '2人送一次', 1, 0, 2, 50, 1);
+INSERT INTO bowen.fa_award (id, name, status, is_repeat, total_number, goods_id, type) VALUES (1, '注册奖励', 1, 1, 3, 96, 0);
+INSERT INTO bowen.fa_award (id, name, status, is_repeat, total_number, goods_id, type) VALUES (31, '2人送一次', 1, 0, 2, 94, 1);
 INSERT INTO bowen.fa_award (id, name, status, is_repeat, total_number, goods_id, type) VALUES (32, '1人重复送', 1, 1, 1, 95, 1);
+INSERT INTO bowen.fa_award (id, name, status, is_repeat, total_number, goods_id, type) VALUES (33, '3人送1次', 1, 1, 3, 92, 1);

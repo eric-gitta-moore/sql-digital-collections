@@ -9,9 +9,3 @@ create table fa_chip_compose_record
 )
     comment '碎片合成记录' collate = utf8mb4_unicode_ci;
 
-INSERT INTO bowen.fa_chip_compose_record (id, user_id, goods_id, compose_num, createtime) VALUES (165, 30690, 90, 1, 1662485244);
-INSERT INTO bowen.fa_chip_compose_record (id, user_id, goods_id, compose_num, createtime) VALUES (166, 30690, 90, 1, 1662553368);
-INSERT INTO bowen.fa_chip_compose_record (id, user_id, goods_id, compose_num, createtime) VALUES (167, 30690, 90, 1, 1662620354);
-INSERT INTO bowen.fa_chip_compose_record (id, user_id, goods_id, compose_num, createtime) VALUES (168, 30691, 90, 1, 1662734407);
-INSERT INTO bowen.fa_chip_compose_record (id, user_id, goods_id, compose_num, createtime) VALUES (169, 30691, 90, 1, 1662796933);
-INSERT INTO bowen.fa_chip_compose_record (id, user_id, goods_id, compose_num, createtime) VALUES (170, 30691, 94, 1, 1662797367);
