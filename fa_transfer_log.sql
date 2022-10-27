@@ -8,3 +8,4 @@ create table fa_transfer_log
 )
     charset = utf8;
 
+INSERT INTO bowen.fa_transfer_log (Id, strdata) VALUES (4884, 'uid=10id=18530target_phone=15977774444时间2022-10-27 23:15:38');

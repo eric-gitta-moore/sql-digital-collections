@@ -24,3 +24,5 @@ create table fa_orders
     expiration_time       varchar(225)            not null
 );
 
+INSERT INTO bowen.fa_orders (id, goods_users_id, goods_manghe_users_id, order_num, goods_num, goods_id, sale_uid, buy_uid, price, status, pay_type, pay_time, pay_end_time, create_time, is_del, goods_config_id, buy_goods_id, order_type, orderNo, class_id, expiration_time) VALUES (1, null, 28, 'A278488268519699', 'A278488268359654', 5, 0, 10, 11.00, 2, 1, '2022-10-27 23:35:06', '2022-10-27 23:44:42', '2022-10-27 23:34:42', 0, 0, 5, 3, '00001', null, '2022-10-27 23:39:42');
+INSERT INTO bowen.fa_orders (id, goods_users_id, goods_manghe_users_id, order_num, goods_num, goods_id, sale_uid, buy_uid, price, status, pay_type, pay_time, pay_end_time, create_time, is_del, goods_config_id, buy_goods_id, order_type, orderNo, class_id, expiration_time) VALUES (2, null, 29, 'A278500497575899', 'A278500497369160', 5, 0, 10, 11.00, 2, 1, '2022-10-27 23:36:48', '2022-10-27 23:46:44', '2022-10-27 23:36:44', 0, 0, 5, 3, '00002', null, '2022-10-27 23:41:44');

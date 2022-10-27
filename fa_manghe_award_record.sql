@@ -9,3 +9,8 @@ create table fa_manghe_award_record
 )
     comment '盲盒中奖纪录' collate = utf8mb4_unicode_ci;
 
+INSERT INTO bowen.fa_manghe_award_record (id, user_id, goods_id, status, createtime) VALUES (30, 10, 1, '1', 1666886134);
+INSERT INTO bowen.fa_manghe_award_record (id, user_id, goods_id, status, createtime) VALUES (31, 10, 1, '1', 1666886186);
+INSERT INTO bowen.fa_manghe_award_record (id, user_id, goods_id, status, createtime) VALUES (32, 10, 1, '1', 1666887140);
+INSERT INTO bowen.fa_manghe_award_record (id, user_id, goods_id, status, createtime) VALUES (33, 10, 3, '1', 1666887159);
+INSERT INTO bowen.fa_manghe_award_record (id, user_id, goods_id, status, createtime) VALUES (34, 10, 1, '1', 1666887162);

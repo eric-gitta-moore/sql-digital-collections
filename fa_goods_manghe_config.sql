@@ -14,11 +14,10 @@ INSERT INTO bowen.fa_goods_manghe_config (id, goods_id, combination_goods_id, wi
 INSERT INTO bowen.fa_goods_manghe_config (id, goods_id, combination_goods_id, win_rate, is_win) VALUES (3, 228, 226, 10, 0);
 INSERT INTO bowen.fa_goods_manghe_config (id, goods_id, combination_goods_id, win_rate, is_win) VALUES (4, 228, 224, 10, 1);
 INSERT INTO bowen.fa_goods_manghe_config (id, goods_id, combination_goods_id, win_rate, is_win) VALUES (5, 228, 229, 70, 1);
-INSERT INTO bowen.fa_goods_manghe_config (id, goods_id, combination_goods_id, win_rate, is_win) VALUES (8, 2, 16, 50, 1);
 INSERT INTO bowen.fa_goods_manghe_config (id, goods_id, combination_goods_id, win_rate, is_win) VALUES (9, 17, 16, 10, 1);
 INSERT INTO bowen.fa_goods_manghe_config (id, goods_id, combination_goods_id, win_rate, is_win) VALUES (10, 21, 18, 10, 1);
 INSERT INTO bowen.fa_goods_manghe_config (id, goods_id, combination_goods_id, win_rate, is_win) VALUES (17, 24, 23, 10, 1);
-INSERT INTO bowen.fa_goods_manghe_config (id, goods_id, combination_goods_id, win_rate, is_win) VALUES (18, 5, 1, 111, 1);
+INSERT INTO bowen.fa_goods_manghe_config (id, goods_id, combination_goods_id, win_rate, is_win) VALUES (18, 5, 1, 50, 1);
 INSERT INTO bowen.fa_goods_manghe_config (id, goods_id, combination_goods_id, win_rate, is_win) VALUES (21, 3, 6, 50, 1);
 INSERT INTO bowen.fa_goods_manghe_config (id, goods_id, combination_goods_id, win_rate, is_win) VALUES (22, 12, 8, 100, 1);
 INSERT INTO bowen.fa_goods_manghe_config (id, goods_id, combination_goods_id, win_rate, is_win) VALUES (24, 18, 20, 2, 1);
@@ -66,3 +65,6 @@ INSERT INTO bowen.fa_goods_manghe_config (id, goods_id, combination_goods_id, wi
 INSERT INTO bowen.fa_goods_manghe_config (id, goods_id, combination_goods_id, win_rate, is_win) VALUES (76, 71, 74, 50, 1);
 INSERT INTO bowen.fa_goods_manghe_config (id, goods_id, combination_goods_id, win_rate, is_win) VALUES (89, 80, 46, 50, 1);
 INSERT INTO bowen.fa_goods_manghe_config (id, goods_id, combination_goods_id, win_rate, is_win) VALUES (90, 80, 50, 50, 1);
+INSERT INTO bowen.fa_goods_manghe_config (id, goods_id, combination_goods_id, win_rate, is_win) VALUES (91, 2, 1, 50, 1);
+INSERT INTO bowen.fa_goods_manghe_config (id, goods_id, combination_goods_id, win_rate, is_win) VALUES (92, 2, 3, 50, 1);
+INSERT INTO bowen.fa_goods_manghe_config (id, goods_id, combination_goods_id, win_rate, is_win) VALUES (93, 5, 3, 50, 1);
