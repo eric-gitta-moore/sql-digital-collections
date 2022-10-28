@@ -71,3 +71,11 @@ INSERT INTO bowen.fa_goods_send (id, uid, goods_id, price, create_time, status) 
 INSERT INTO bowen.fa_goods_send (id, uid, goods_id, price, create_time, status) VALUES (719, 10, 5, 11.00, '2022-10-27 23:10:17', 1);
 INSERT INTO bowen.fa_goods_send (id, uid, goods_id, price, create_time, status) VALUES (720, 10, 5, 11.00, '2022-10-27 23:10:17', 1);
 INSERT INTO bowen.fa_goods_send (id, uid, goods_id, price, create_time, status) VALUES (721, 10, 5, 11.00, '2022-10-27 23:45:08', 1);
+INSERT INTO bowen.fa_goods_send (id, uid, goods_id, price, create_time, status) VALUES (722, 9, 1, 99.00, '2022-10-28 01:16:30', 0);
+INSERT INTO bowen.fa_goods_send (id, uid, goods_id, price, create_time, status) VALUES (723, 9, 1, 99.00, '2022-10-28 01:16:31', 0);
+INSERT INTO bowen.fa_goods_send (id, uid, goods_id, price, create_time, status) VALUES (724, 9, 1, 99.00, '2022-10-28 01:16:32', 0);
+INSERT INTO bowen.fa_goods_send (id, uid, goods_id, price, create_time, status) VALUES (725, 9, 1, 99.00, '2022-10-28 01:17:12', 0);
+INSERT INTO bowen.fa_goods_send (id, uid, goods_id, price, create_time, status) VALUES (726, 9, 1, 99.00, '2022-10-28 01:17:17', 0);
+INSERT INTO bowen.fa_goods_send (id, uid, goods_id, price, create_time, status) VALUES (727, 9, 1, 99.00, '2022-10-28 01:17:18', 0);
+INSERT INTO bowen.fa_goods_send (id, uid, goods_id, price, create_time, status) VALUES (728, 9, 1, 99.00, '2022-10-28 01:17:19', 0);
+INSERT INTO bowen.fa_goods_send (id, uid, goods_id, price, create_time, status) VALUES (729, 9, 1, 99.00, '2022-10-28 01:17:20', 0);
