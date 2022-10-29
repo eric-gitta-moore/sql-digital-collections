@@ -13,14 +13,14 @@ create index group_id
 create index uid
     on fa_auth_group_access (uid);
 
-INSERT INTO bowen.fa_auth_group_access (uid, group_id) VALUES (1, 1);
-INSERT INTO bowen.fa_auth_group_access (uid, group_id) VALUES (3, 2);
-INSERT INTO bowen.fa_auth_group_access (uid, group_id) VALUES (4, 2);
-INSERT INTO bowen.fa_auth_group_access (uid, group_id) VALUES (5, 2);
-INSERT INTO bowen.fa_auth_group_access (uid, group_id) VALUES (6, 2);
-INSERT INTO bowen.fa_auth_group_access (uid, group_id) VALUES (7, 6);
-INSERT INTO bowen.fa_auth_group_access (uid, group_id) VALUES (8, 6);
-INSERT INTO bowen.fa_auth_group_access (uid, group_id) VALUES (9, 1);
-INSERT INTO bowen.fa_auth_group_access (uid, group_id) VALUES (11, 1);
-INSERT INTO bowen.fa_auth_group_access (uid, group_id) VALUES (11, 2);
-INSERT INTO bowen.fa_auth_group_access (uid, group_id) VALUES (12, 2);
+INSERT INTO fa_auth_group_access (uid, group_id) VALUES (1, 1);
+INSERT INTO fa_auth_group_access (uid, group_id) VALUES (3, 2);
+INSERT INTO fa_auth_group_access (uid, group_id) VALUES (4, 2);
+INSERT INTO fa_auth_group_access (uid, group_id) VALUES (5, 2);
+INSERT INTO fa_auth_group_access (uid, group_id) VALUES (6, 2);
+INSERT INTO fa_auth_group_access (uid, group_id) VALUES (7, 6);
+INSERT INTO fa_auth_group_access (uid, group_id) VALUES (8, 6);
+INSERT INTO fa_auth_group_access (uid, group_id) VALUES (9, 1);
+INSERT INTO fa_auth_group_access (uid, group_id) VALUES (11, 1);
+INSERT INTO fa_auth_group_access (uid, group_id) VALUES (11, 2);
+INSERT INTO fa_auth_group_access (uid, group_id) VALUES (12, 2);

@@ -9,4 +9,4 @@ create table fa_calendar_goods
     is_del      tinyint default 0   null comment '删除状态:0=未删除,1=已删除'
 );
 
-INSERT INTO bowen.fa_calendar_goods (id, calendar_id, goods_id, `order`, is_show, is_del) VALUES (24, 12, 95, 1, 1, 0);
+INSERT INTO fa_calendar_goods (id, calendar_id, goods_id, `order`, is_show, is_del) VALUES (24, 12, 95, 1, 1, 0);

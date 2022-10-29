@@ -10,7 +10,7 @@ create table fa_feedback
     create_time datetime                 null comment '反馈时间'
 );
 
-INSERT INTO bowen.fa_feedback (id, uid, images, remark, is_del, status, create_time) VALUES (1, 2, '', '111', 0, 1, '2021-11-10 16:55:59');
-INSERT INTO bowen.fa_feedback (id, uid, images, remark, is_del, status, create_time) VALUES (2, 55, '/uploads/base/20211111/a359fdac2b74f1dddf588f06c1f77a8d.png', '1', 0, 0, '2021-11-11 11:37:58');
-INSERT INTO bowen.fa_feedback (id, uid, images, remark, is_del, status, create_time) VALUES (3, 55, '/uploads/base/20211111/a8174d91c663811a79bacecbebac8f65.png', '2', 0, 0, '2021-11-11 11:38:11');
-INSERT INTO bowen.fa_feedback (id, uid, images, remark, is_del, status, create_time) VALUES (4, 55, '/uploads/base/20211111/9c7ee23fb7f9758f7d6e6bfc38bd08bf.png', '2', 0, 0, '2021-11-11 11:39:15');
+INSERT INTO fa_feedback (id, uid, images, remark, is_del, status, create_time) VALUES (1, 2, '', '111', 0, 1, '2021-11-10 16:55:59');
+INSERT INTO fa_feedback (id, uid, images, remark, is_del, status, create_time) VALUES (2, 55, '/uploads/base/20211111/a359fdac2b74f1dddf588f06c1f77a8d.png', '1', 0, 0, '2021-11-11 11:37:58');
+INSERT INTO fa_feedback (id, uid, images, remark, is_del, status, create_time) VALUES (3, 55, '/uploads/base/20211111/a8174d91c663811a79bacecbebac8f65.png', '2', 0, 0, '2021-11-11 11:38:11');
+INSERT INTO fa_feedback (id, uid, images, remark, is_del, status, create_time) VALUES (4, 55, '/uploads/base/20211111/9c7ee23fb7f9758f7d6e6bfc38bd08bf.png', '2', 0, 0, '2021-11-11 11:39:15');

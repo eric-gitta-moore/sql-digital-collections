@@ -15,4 +15,4 @@ create table fa_version
 )
     comment '版本表' charset = utf8;
 
-INSERT INTO bowen.fa_version (id, oldversion, newversion, packagesize, content, downloadurl, enforce, createtime, updatetime, weigh, status) VALUES (1, '1.1.1,2', '1.2.1', '20M', '更新内容', 'https://www.example.com', 1, 1520425318, 0, 0, 'normal');
+INSERT INTO fa_version (id, oldversion, newversion, packagesize, content, downloadurl, enforce, createtime, updatetime, weigh, status) VALUES (1, '1.1.1,2', '1.2.1', '20M', '更新内容', 'https://www.example.com', 1, 1520425318, 0, 0, 'normal');

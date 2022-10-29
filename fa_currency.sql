@@ -9,4 +9,4 @@ create table fa_currency
 )
     collate = utf8mb4_unicode_ci;
 
-INSERT INTO bowen.fa_currency (id, name, image, digit, is_del) VALUES (1, '余额', '', 2, 0);
+INSERT INTO fa_currency (id, name, image, digit, is_del) VALUES (1, '余额', '', 2, 0);

@@ -6,5 +6,5 @@ create table fa_role
 )
     collate = utf8mb4_unicode_ci;
 
-INSERT INTO bowen.fa_role (id, name) VALUES (1, '普通会员');
-INSERT INTO bowen.fa_role (id, name) VALUES (2, '商家');
+INSERT INTO fa_role (id, name) VALUES (1, '普通会员');
+INSERT INTO fa_role (id, name) VALUES (2, '商家');

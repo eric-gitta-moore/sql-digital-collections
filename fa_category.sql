@@ -24,4 +24,4 @@ create index pid
 create index weigh
     on fa_category (weigh, id);
 
-INSERT INTO bowen.fa_category (id, pid, type, name, nickname, flag, image, keywords, description, diyname, createtime, updatetime, weigh, status) VALUES (1, 0, 'page', 'asdas ', '离开吗', 'hot', '', '', '', '', 1662485141, 1662485141, 1, 'normal');
+INSERT INTO fa_category (id, pid, type, name, nickname, flag, image, keywords, description, diyname, createtime, updatetime, weigh, status) VALUES (1, 0, 'page', 'asdas ', '离开吗', 'hot', '', '', '', '', 1662485141, 1662485141, 1, 'normal');

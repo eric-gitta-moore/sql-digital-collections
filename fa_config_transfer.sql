@@ -11,6 +11,6 @@ create table fa_config_transfer
     is_del          tinyint        default 0    null comment '删除状态:0=未删除,1=已删除'
 );
 
-INSERT INTO bowen.fa_config_transfer (id, currency_id, min, max, cardinal_number, rate, is_show, is_del) VALUES (1, 1, 1.00, 1000.00, 1, 0.00, 1, 0);
-INSERT INTO bowen.fa_config_transfer (id, currency_id, min, max, cardinal_number, rate, is_show, is_del) VALUES (2, 2, 1.00, 1000.00, 1, 0.00, 1, 0);
-INSERT INTO bowen.fa_config_transfer (id, currency_id, min, max, cardinal_number, rate, is_show, is_del) VALUES (3, 3, 1.00, 1000.00, 1, 0.00, 1, 0);
+INSERT INTO fa_config_transfer (id, currency_id, min, max, cardinal_number, rate, is_show, is_del) VALUES (1, 1, 1.00, 1000.00, 1, 0.00, 1, 0);
+INSERT INTO fa_config_transfer (id, currency_id, min, max, cardinal_number, rate, is_show, is_del) VALUES (2, 2, 1.00, 1000.00, 1, 0.00, 1, 0);
+INSERT INTO fa_config_transfer (id, currency_id, min, max, cardinal_number, rate, is_show, is_del) VALUES (3, 3, 1.00, 1000.00, 1, 0.00, 1, 0);

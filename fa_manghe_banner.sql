@@ -11,4 +11,4 @@ create table fa_manghe_banner
 )
     comment '盲盒轮播管理' collate = utf8mb4_general_ci;
 
-INSERT INTO bowen.fa_manghe_banner (id, image, name, url, is_show, createtime, updatetime) VALUES (2, '/uploads/20220907/4c9af8838d7c83ddbbe0af14d233b66d.jpeg', '', '', 1, 1651131401, 1662932371);
+INSERT INTO fa_manghe_banner (id, image, name, url, is_show, createtime, updatetime) VALUES (2, '/uploads/20220907/4c9af8838d7c83ddbbe0af14d233b66d.jpeg', '', '', 1, 1651131401, 1662932371);

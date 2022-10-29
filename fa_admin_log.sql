@@ -16,4 +16,4 @@ create table fa_admin_log
 create index name
     on fa_admin_log (username);
 
-INSERT INTO bowen.fa_admin_log (id, admin_id, username, url, title, content, ip, useragent, createtime) VALUES (1, 1, 'admin', '/admin8.php/index/login?url=%2Fadmin8.php%2Fgoods%2Findex%3Fref%3Daddtabs', '登录', '{"url":"\\/admin8.php\\/goods\\/index?ref=addtabs","__token__":"***","username":"admin","password":"***","captcha":"q2ek","keeplogin":"1"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.52', 1667053447);
+INSERT INTO fa_admin_log (id, admin_id, username, url, title, content, ip, useragent, createtime) VALUES (1, 1, 'admin', '/admin8.php/index/login?url=%2Fadmin8.php%2Fgoods%2Findex%3Fref%3Daddtabs', '登录', '{"url":"\\/admin8.php\\/goods\\/index?ref=addtabs","__token__":"***","username":"admin","password":"***","captcha":"q2ek","keeplogin":"1"}', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.52', 1667053447);

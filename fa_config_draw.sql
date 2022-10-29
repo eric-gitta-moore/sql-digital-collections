@@ -12,4 +12,4 @@ create table fa_config_draw
 )
     collate = utf8mb4_unicode_ci;
 
-INSERT INTO bowen.fa_config_draw (id, currency_id, min, rate, max, is_show, content, is_del) VALUES (1, 1, 0.01, 3.00, 1000.00, 1, '需要填写好自己的银行卡号,提现到账时间72小时内。', 0);
+INSERT INTO fa_config_draw (id, currency_id, min, rate, max, is_show, content, is_del) VALUES (1, 1, 0.01, 3.00, 1000.00, 1, '需要填写好自己的银行卡号,提现到账时间72小时内。', 0);

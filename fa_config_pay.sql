@@ -12,5 +12,5 @@ create table fa_config_pay
     action     varchar(255)             null comment '方法名'
 );
 
-INSERT INTO bowen.fa_config_pay (id, name, image, min, max, is_show, `order`, notify_url, action) VALUES (1, '微信', '/uploads/20211110/941e528b6543fb94328152f02b9abb1a.png', 100, 1000000, 1, 100, 'http://127.0.0.1:7011/api/notify/wxNotify', 'WxLogic()');
-INSERT INTO bowen.fa_config_pay (id, name, image, min, max, is_show, `order`, notify_url, action) VALUES (2, '支付宝', '/uploads/20211110/e113791172db0ffe69d5e2e30acb39aa.png', 100, 1000000, 1, 100, 'http://127.0.0.1:7011/api/notify/aliNotify', 'AliLogic()');
+INSERT INTO fa_config_pay (id, name, image, min, max, is_show, `order`, notify_url, action) VALUES (1, '微信', '/uploads/20211110/941e528b6543fb94328152f02b9abb1a.png', 100, 1000000, 1, 100, 'http://127.0.0.1:7011/api/notify/wxNotify', 'WxLogic()');
+INSERT INTO fa_config_pay (id, name, image, min, max, is_show, `order`, notify_url, action) VALUES (2, '支付宝', '/uploads/20211110/e113791172db0ffe69d5e2e30acb39aa.png', 100, 1000000, 1, 100, 'http://127.0.0.1:7011/api/notify/aliNotify', 'AliLogic()');
