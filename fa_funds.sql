@@ -10,5 +10,3 @@ create table fa_funds
 )
     collate = utf8mb4_unicode_ci;
 
-INSERT INTO bowen.fa_funds (id, uid, currency_id, account, type, create_time) VALUES (1, 1, 1, 1000.00, 1, '2022-10-27 23:16:22');
-INSERT INTO bowen.fa_funds (id, uid, currency_id, account, type, create_time) VALUES (2, 10, 1, 999.00, 1, '2022-10-27 23:35:01');

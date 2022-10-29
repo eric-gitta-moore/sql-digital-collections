@@ -11,7 +11,3 @@ create table fa_goods_config
     is_del               tinyint default 0 null comment '删除状态:0=未删除,1=已删除'
 );
 
-INSERT INTO bowen.fa_goods_config (id, goods_id, combination_goods_id, stock, sales, surplus, is_show, is_del) VALUES (45, 1, 2, 0, 18, 982, 1, 0);
-INSERT INTO bowen.fa_goods_config (id, goods_id, combination_goods_id, stock, sales, surplus, is_show, is_del) VALUES (46, 1, 3, 0, 18, 982, 1, 0);
-INSERT INTO bowen.fa_goods_config (id, goods_id, combination_goods_id, stock, sales, surplus, is_show, is_del) VALUES (47, 1, 1, 0, 28, 972, 1, 0);
-INSERT INTO bowen.fa_goods_config (id, goods_id, combination_goods_id, stock, sales, surplus, is_show, is_del) VALUES (76, 229, 2, 0, 112, 10, 1, 0);

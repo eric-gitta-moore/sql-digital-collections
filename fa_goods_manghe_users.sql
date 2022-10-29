@@ -14,6 +14,3 @@ create table fa_goods_manghe_users
 )
     comment '用户盲盒管理' collate = utf8mb4_unicode_ci;
 
-INSERT INTO bowen.fa_goods_manghe_users (id, user_id, goods_number, goods_id, status, createtime, updatetime, orderNo, class_id, state) VALUES (1, 10, 'A284435688201987', 5, 3, 1666944356, 1666944356, 'mh00001', null, 0);
-INSERT INTO bowen.fa_goods_manghe_users (id, user_id, goods_number, goods_id, status, createtime, updatetime, orderNo, class_id, state) VALUES (2, 10, 'A284438944885891', 5, 3, 1666944389, 1666944389, 'mh00002', null, 0);
-INSERT INTO bowen.fa_goods_manghe_users (id, user_id, goods_number, goods_id, status, createtime, updatetime, orderNo, class_id, state) VALUES (3, 10, 'A284439035924654', 5, 3, 1666944390, 1666944390, 'mh00003', null, 0);
